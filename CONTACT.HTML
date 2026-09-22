@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="veiwport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>E-waste</title>
+</head>
+<body>
+<section class="sub-headers">
+<nav>
+<div class="navlinkss">
+<ul>
+<li><a href="HOME.html">HOME</a></li>
+<li><a href="ABOUT.html">ABOUT</a></li>
+<li><a href="CAUSES.html">CAUSES</a></li>
+<li><a href="RECYCLE.html">RECYCLING</a></li>
+<li><a href="CONTACT.html">CONTACT</a></li>
+</ul>
+</div>
+</nav>
+</section>
+
+<section class="contact-boxes">
+<div class="boxes">
+<h3>Location</h3>
+<p>Mumbai,Maharashtra</p>
+ </div>
+
+<div class="boxes">
+<h3>Phone</h3>
+<p>+91 9876543210</p>
+</div>
+
+<div class="boxes">
+<h3>Email</h3>
+<p>ewaste@gmail.com</p>
+</div>
+
+<div class="boxes">
+<h3>Website</h3>
+<p>www.ewaste.com</p>
+</div>
+</section>
+
+<section class="contact-form">
+<div class="form-container">
+<h2>Send Message</h2>
+
+<form>
+<div class="input-box">
+<input type="text" placeholder="Full Name">
+</div>
+
+<div class="input-box">
+<input type="email" placeholder="Email Address">
+</div>
+
+<div class="input-box">
+<input type="tel" placeholder="Phone number">
+</div>
+
+<div class="input-box">
+<select id="subject"
+onchange="document.getElementById('ewaste').style.display =
+this.value=='E-Waste Pickup' ? 'block' : 'none'">
+<option>Select Subject</option>
+<option>E-Waste Pickup</option>
+<option>Recycling Query</option>
+<option>Complaint</option>
+<option>Partnership</option>
+<option>General Inquiry</option>
+</select>
+</div>
+
+<!-- HIDDEN OPTION -->
+<div class="input-box">
+<div id="ewaste" style="display:none; margin-top:10px;">
+<select>
+<option>Select Type of E-Waste</option>
+<option>Mobile</option>
+<option>Laptop</option>
+<option>Battery</option>
+<option>TV</option>
+<option>Charger</option>
+<option>Other</option>
+</select>
+</div></div>
+
+
+
+<div class="input-box">
+<textarea placeholder="Write your message..."></textarea>
+</div>
+
+<button type="submit">Send Message</button>
+</form>
+</div>
+</section>
+
+
+<section class="footer">
+<p>Email:info@ewaste.com</p>
+<p>Phone:+91 90216xxxxx</p>
+<p>Address:Virar East</p>
+<p>©2026 E-waste management|Created by Gauri</p>
+</footer>
+</body>
+</html>
