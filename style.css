@@ -7,7 +7,7 @@ box-sizing:border-box;
 min-height:100vh;
 width:100%;
 background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),
-url(D:\GAURI/ee-waste.jpeg);
+url(ee-waste.jpeg);
 background-position:center;
 background-size:cover;
 position:relative;
@@ -161,7 +161,7 @@ line-height:2;
 min-height:100vh;
 width:100%;
 background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),
-url(D:\GAURI/About.jpeg);
+url(About.jpeg);
 background-position:center;
 background-size:cover;
 position:relative;
@@ -296,7 +296,7 @@ padding-right:100px;
 min-height:100vh;
 width:100%;
 background-image:linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),
-url(D:\GAURI/causes.jpeg);
+url(causes.jpeg);
 background-position:center;
 background-size:cover;
 position:relative;
@@ -436,7 +436,7 @@ transition:0.4s;
 min-height:100vh;
 width:100%;
 background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),
-url(D:\GAURI/recycle.jpeg);
+url(recycle.jpeg);
 background-position:center;
 background-size:cover;
 position:relative;
